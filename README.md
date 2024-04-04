@@ -1,4 +1,5 @@
 # Mommingle - Web Application
+Authors: Bo Kyung Kim, Karina De Vargas Pereira, Sophie Hsu / John Abbott College FSD-10
 
 ## Introduction
 
