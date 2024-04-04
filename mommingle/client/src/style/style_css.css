@@ -1,0 +1,577 @@
+/* .app */
+.app {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+/* .app .navbar */
+.app .navbar {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/* .app .container */
+.app .container {
+  width: 100vw; /* Adjusted width to fit mobile screens */
+  padding: 0 20px; /* Added padding for better mobile spacing */
+  margin-top: 25px;
+}
+
+/* .app .container .link */
+.app .container .link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .app .container .auth */
+/* LOGIN & REGISTER */
+.app .container .auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2e356;
+}
+
+/* .app .container .auth h1 */
+.app .container .auth h1 {
+  font-size: 20px;
+  color: teal;
+  margin-bottom: 20px;
+}
+
+/* .app .container .auth form */
+.app .container .auth form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: white;
+  width: 100%; /* Adjusted width to fit mobile screens */
+  max-width: 400px; /* Added max-width to limit form size on larger screens */
+  margin: auto; /* Center the form horizontally */
+  gap: 20px;
+}
+
+/* .app .container .auth form input */
+.app .container .auth form input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+/* .app .container .auth form button */
+.app .container .auth form button {
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+  color: white;
+}
+
+/* .app .container .auth form p */
+.app .container .auth form p {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+
+/* .app .container .auth form span */
+.app .container .auth form span {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* .app .container .navbar */
+/* NAVBAR */
+.app .container .navbar .container {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+/* .app .container .navbar .container .logo img */
+.app .container .navbar .container .logo img {
+  width: 120px;
+}
+
+/* .app .container .navbar .container .links */
+.app .container .navbar .container .links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .app .container .navbar .container .links h6 */
+.app .container .navbar .container .links h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* .app .container .navbar .container .links span */
+.app .container .navbar .container .links span {
+  cursor: pointer;
+}
+
+/* .app .container .navbar .container .links .write */
+.app .container .navbar .container .links .write {
+  background-color: #9d3dec;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  border: 1px solid white;
+}
+
+/* .app .container footer */
+/* FOOTER */
+.app .container footer {
+  margin-top: 50px; /* Adjusted margin for better spacing on mobile */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+/* .app .container footer img */
+.app .container footer img {
+  width: 80px; /* Set the desired width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* .app .container .single */
+/* SINGLE */
+.app .container .single {
+  display: flex;
+  flex-direction: column; /* Changed to column layout for better mobile display */
+  gap: 20px; /* Reduced gap for better spacing on mobile */
+}
+
+/* .app .container .single .content */
+.app .container .single .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjusted gap for better spacing on mobile */
+}
+
+/* .app .container .single .content img */
+.app .container .single .content img {
+  width: 100%;
+  height: auto; /* Adjusted height to maintain aspect ratio */
+  object-fit: cover;
+}
+
+/* .app .container .single .content .user */
+.app .container .single .content .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+/* .app .container .single .content .user img */
+.app .container .single .content .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Added border-radius value */
+}
+
+/* CreateEvent */
+.create-event-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.create-event-container h1 {
+  margin: 10px 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.event-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editor-container {
+  margin-bottom: 10px;
+  height: 300px;
+  overflow: scroll;
+}
+
+.editor {
+  height: 100%;
+  border: none;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #53aeff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.publish-button {
+  padding: 10px 20px;
+  background-color: #53aeff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.publish-button:hover {
+  background-color: #3b82f6;
+}
+
+.error {
+  color: red;
+}
+
+#custom-datepicker .react-datepicker-wrapper,
+#custom-datepicker .react-datepicker__input-container input {
+  width: 100px; /* Adjust the width as needed */
+}
+
+/* ********ADMIN PAGE********** */
+.usersPanel {
+  padding: 20px;
+}
+
+.usersContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.usersTable {
+  overflow-x: auto;
+}
+
+.usersTable h1 {
+  margin-bottom: 30px;
+}
+
+.usersHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table_btn {
+  padding: 10px 20px;
+  background-color: #53aeff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.table_btn:hover {
+  background-color: #3b82f6;
+}
+
+/* ******** Modal ********** */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.modal_btn {
+  border: 2x solid #3b82f6;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #3b82f6;
+}
+
+.modal_btn:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/**** Single Page ****/
+.bg-white {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.eventMain {
+  width: 65%;
+  margin-right: 40px; /* Add margin between eventMain and eventSub */
+}
+
+.eventSub {
+  width: 35%;
+}
+
+.subContainer {
+  border: 2px solid #f8f8f8;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.subContainer h1 {
+  margin-bottom: 10px;
+}
+
+.subContainer .comment-container {
+  display: flex;
+  margin: 10px;
+}
+
+.subContainer input.comment-input {
+  flex: 1;
+}
+
+.save-button {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  padding: 0 15px;
+  background-color: #ffaeb0;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #ff8689;
+}
+
+.subContainer ul {
+  padding-left: 0;
+}
+
+.subContainer li {
+  margin: 10px;
+}
+
+.join_btn {
+  width: 90%;
+  background-color: #ffaeb0;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 20px;
+}
+
+.join_btn:hover {
+  background-color: #ff8689;
+}
+
+.attendees-list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.attendees-list li {
+  list-style: none;
+}
+
+.attendees-list li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.attendees-list li span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10%;
+  background-color: #ff8689;
+  color: #ffffff;
+}
+
+/* .app .container .home */
+/* HOME */
+.app .container .home .posts {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+/* .app .container .home .posts .post */
+.app .container .home .posts .post {
+  display: flex;
+  gap: 100px;
+}
+
+/* .app .container .home .posts .post:nth-child(2n + 1) */
+.app .container .home .posts .post:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+/* .app .container .home .posts .post .img */
+.app .container .home .posts .post .img {
+  flex: 2;
+  position: relative;
+}
+
+/* .app .container .home .posts .post .img::after */
+.app .container .home .posts .post .img::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #9d3dec;
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  z-index: -1;
+}
+
+/* .app .container .home .posts .post .img img */
+.app .container .home .posts .post .img img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* .app .container .home .posts .post .content */
+.app .container .home .posts .post .content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .app .container .home .posts .post .content h1 */
+.app .container .home .posts .post .content h1 {
+  font-size: 48px;
+}
+
+/* .app .container .home .posts .post .content p */
+.app .container .home .posts .post .content p {
+  font-size: 18px;
+}
+
+/* .app .container .home .posts .post .content button */
+.app .container .home .posts .post .content button {
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+}
+
+/* .app .container .home .posts .post .content button:hover */
+.app .container .home .posts .post .content button:hover {
+  border: 1px solid white;
+  background-color: #9d3dec;
+  color: black;
+}
