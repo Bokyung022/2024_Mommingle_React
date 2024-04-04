@@ -3,7 +3,7 @@ Authors: Bo Kyung Kim, Karina De Vargas Pereira, Sophie Hsu / John Abbott Colleg
 
 ## Introduction
 
-Welcome to JustSell, a web-based Real Estate platform, enabling users to browse, search, and securely purchase properties online, while empowering realtors with comprehensive CRUD based property listing management capabilities.
+MomMingle is envisioned as a transformative social media platform built with React and Node.js, designed to cater to the unique needs of mothers worldwide. It offers a simple and intuitive interface for moms to create profiles, discover events, and interact with each other.
 
 ## Technology Stack
 
